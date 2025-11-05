@@ -1,35 +1,86 @@
 <!DOCTYPE html>
-<html lang="es">
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  
-  <title>Mi Proyecto</title>
-  <meta name="description" content="Descripción corta del proyecto.">
-  <meta name="author" content="Tu Nombre">
-  
-  <!-- Favicon -->
-  <link rel="icon" href="favicon.ico" type="image/x-icon">
-  
-  <!-- CSS -->
-  <link rel="stylesheet" href="styles.css">
-  
-  <!-- Google Fonts ejemplo -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
-  
-  <!-- Meta Open Graph (para redes sociales) -->
-  <meta property="og:title" content="Mi Proyecto">
-  <meta property="og:description" content="Descripción corta del proyecto.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="preview.png">
-  <meta property="og:url" content="https://midominio.com">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #333;
+      background-color: #f5f5f5;
+    }
+    header {
+      background-color: #333;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    section {
+      max-width: 800px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+    h2 {
+      border-bottom: 2px solid #333;
+      padding-bottom: 0.5rem;
+    }
+    .project {
+      background: white;
+      padding: 1rem;
+      margin: 1rem 0;
+      border-radius: 5px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background-color: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+  </style>
 </head>
 <body>
-    <div>
-        <h1>
-            Lukas Andre Sanhueza Solar
-        </h1>
+  <header>
+    <h1>Lukas Sanhueza Solar</h1>
+    <p>Ingenieria de EJecucion Computacional e INformatica</p>
+  </header>
+
+  <section id="about">
+    <h2>Sobre mi</h2>
+    <p>hola</p>
+  </section>
+
+  <section id="projects">
+    <h2>Proyectos</h2>
+    <div class="project">
+      <h3>Proyecto uno</h3>
+      <p>Multiples scrappers de apuestas deportivas, bolsa de valores y mercados de crypto.</p>
     </div>
+    <div class="project">
+      <h3>Proyecto dois</h3>
+      <p>Solucionador de buscaminas automatico con python</p>
+    </div>
+    <div class="project">
+      <h3>Proyecto treis</h3>
+      <p>Programa para chitiar en TypeRacer.com, escribe mas rapido que cualquier persona.</p>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Amenazas a</h2>
+    <p>Email: <a href="mailto:lukassanhuezasolar.com">lukassanhuezasolar.com</a></p>
+    <p>GitHub: <a href="https://github.com/Lukakao" target="_blank">github.com/Lukakao</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Lukas Sanhueza Solar. All rights reserved. (no realmente copyrighted)</p>
+  </footer>
 </body>
 </html>
