@@ -4,83 +4,137 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title></title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 0;
-      color: #333;
-      background-color: #f5f5f5;
-    }
-    header {
-      background-color: #333;
-      color: white;
-      padding: 2rem 1rem;
-      text-align: center;
-    }
-    header h1 {
-      margin: 0;
-    }
-    section {
-      max-width: 800px;
-      margin: 2rem auto;
-      padding: 0 1rem;
-    }
-    h2 {
-      border-bottom: 2px solid #333;
-      padding-bottom: 0.5rem;
-    }
-    .project {
-      background: white;
-      padding: 1rem;
-      margin: 1rem 0;
-      border-radius: 5px;
-      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background-color: #333;
-      color: white;
-      margin-top: 2rem;
-    }
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-  <header>
-    <h1>Lukas Sanhueza Solar</h1>
-    <p>Ingenieria de EJecucion Computacional e INformatica</p>
-  </header>
-
-  <section id="about">
-    <h2>Sobre mi</h2>
-    <p>hola</p>
-  </section>
+  <header class="pantalla">
+  <div class="titulo-container">
+    <h1 class="header-title">Lukas André Sanhueza Solar</h1>
+    <p class="header-subtitle">
+      Ingeniería de Ejecución en Computación e Informática<br>
+      Universidad del Bío-Bío
+    </p>
+    <p class="header-tag">
+      
+    </p>
+  </div>
+</header>
 
   <section id="projects">
     <h2>Proyectos</h2>
-    <div class="project">
-      <h3>Proyecto uno</h3>
-      <p>Multiples scrappers de apuestas deportivas, bolsa de valores y mercados de crypto.</p>
+    <div class="carousel">
+      <div class="track">
+        <div class="project-card">
+          <img class="gif-img" src="imgs/data.gif">
+          <h3>Scraper apuestas deportivas en vivo - Futbol</h3>
+          <p>Recibe datos directos del servidor, cambios en las cuotas de mercados, estado del partido, etc. 150+ caracteristicas.</p>
+          <h4>No Disponible.<br>(Por politicas)</h4>
+        </div>
+        <a href="https://github.com/Lukakao/minesweeper_skill_issue" target="_blank" class="project-link">
+            <div class="project-card">
+                <img class="gif-img" src="imgs/minesweeper.gif">
+                <h2>Solucionador de buscaminas</h2>
+                <p>Funciona al 100% el 60% de las veces.</p>
+                <h4>Disponible en Github</h4>
+                <i class="fa fa-github" style="font-size:24px"></i>
+            </div>
+        </a>
+        <!-- <a href="https://github.com/Lukakao/mariomario-sim" target="_blank" class="project-link">
+        <div class="project-card">
+          <img class="gif-img" src="imgs/mariomariosim.gif">
+          <h3>Simulador evolucion genetica</h3>
+          <p>mario mario luigi mario</p>
+          <h4>Disponible en Github</h4>
+          <i class="fa fa-github" style="font-size:24px"></i>
+        </div>
+        </a> -->
+        <a href="https://github.com/Lukakao/Typeracer_skill_issue" target="_blank" class="project-link">
+        <div class="project-card">
+          <img class="gif-img" src="imgs/typeracer.gif">
+          <h3>Script para ganar en Typeracer.com</h3>
+          <p>Abre un chrome webdriver, se une a una carrera random, escribe súper rapido, te banean.</p>
+          <h4>Disponible en Github</h4>
+          <i class="fa fa-github" style="font-size:24px"></i>
+        </div>
+        </a>
+        <a href="https://sketchfab.com/Namahoi/models" target="_blank" class="project-link">
+        <div class="project-card">
+          <img class="gif-img" src="imgs/seamless_transition_damn_final.gif">
+          <h3>Modelos 3D</h3>
+          <p>Low-poly low-fi high-quality</p>
+          <h4>Sketchfab</h4>
+        </a>
+        </div>
+        <a href="https://lukakao.itch.io/drillship" target="_blank" class="project-link">
+        <div class="project-card" data-gif="imgs/gif2.gif">
+          <img class="gif-img" src="imgs/gamejam.gif">
+          <h3>Jueguito Gamejam</h3>
+          <p>Re buena la música</p>
+          <h4>Disponible en Itch.io</h4>
+        </a>
+        </div>
+      </div>
     </div>
-    <div class="project">
-      <h3>Proyecto dois</h3>
-      <p>Solucionador de buscaminas automatico con python</p>
-    </div>
-    <div class="project">
-      <h3>Proyecto treis</h3>
-      <p>Programa para chitiar en TypeRacer.com, escribe mas rapido que cualquier persona.</p>
     </div>
   </section>
 
-  <section id="contact">
-    <h2>Amenazas a</h2>
-    <p>Email: <a href="mailto:lukassanhuezasolar.com">lukassanhuezasolar.com</a></p>
-    <p>GitHub: <a href="https://github.com/Lukakao" target="_blank">github.com/Lukakao</a></p>
-  </section>
+ <section id="experience">
+  <h2>Experiencia</h2>
 
-  <footer>
-    <p>© 2025 Lukas Sanhueza Solar. All rights reserved. (no realmente copyrighted)</p>
-  </footer>
+  <div class="experience-container">
+
+    <div class="experience-card">
+      <div class="exp-dot"></div>
+      <div class="exp-content">
+        <h3>Administrador Web</h3>
+        <p class="exp-date">2023 – 2024</p>
+        <p class="exp-company">Preuniversitario UBB</p>
+        <p class="exp-desc">
+          Mantención del sitio web, creación de contenido y desarrollo de plugins en PHP.
+        </p>
+      </div>
+    </div>
+
+    <div class="experience-card">
+      <div class="exp-dot"></div>
+      <div class="exp-content">
+        <h3>Práctica Informática</h3>
+        <p class="exp-date">2025 – Presente</p>
+        <p class="exp-company">Laboratorio CIM · Universidad del Bío-Bío</p>
+        <p class="exp-desc">
+          Desarrollo de aplicaciones de visión computacional y simuladores robóticos.
+        </p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  <section id="languages">
+  <h2>Lenguajes</h2>
+
+  <div class="languages-container">
+    <div class="lang-item">Python</div>
+    <div class="lang-item">C#</div>
+    <div class="lang-item">JavaScript</div>
+    <div class="lang-item">Java</div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>Contacto</h2>
+
+  <div class="contact-container">
+    <p><span class="contact-label">Email:</span> 
+      <a href="mailto:lukassanhuezasolar.com">lukassanhuezasolar.com</a>
+    </p>
+
+    <p><span class="contact-label">GitHub:</span> 
+      <a href="https://github.com/Lukakao" target="_blank">github.com/Lukakao</a>
+    </p>
+  </div>
+</section>
 </body>
+<script src="script.js"></script>
 </html>
